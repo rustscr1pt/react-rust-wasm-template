@@ -1,0 +1,6 @@
+1) Create a template --lib project in Rust. Add wasm-bindgen to dependencies.
+2) compile to WASM using "wasm-pack build --target web"
+3) Move pkg folder to react directory.
+4) In index.js import init from pkg folder.
+
+Other instructions are stated as comments inside the react project.
